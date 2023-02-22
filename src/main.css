@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 20px ;
+}
+
+.nav-lict{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}
+
+.nav-login{
+    padding: 5px 10px;color: white;
+    border-radius: 5px;
+}
+
+.header-wrap{
+    background-image: url(./assets/Images/picsum.png);
+    width: 1256px;
+    height: 800px;
+
+}
+
+.hader-title{
+    font-size: 50px;
+    color: white;
+    width: 400px;
+    text-align: center;
+}
+
+.listItem{
+    width: 225px;
+    height: 120px;
+    background: white;
+    margin-right: 5px;
+}
+
+.list{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listTitle{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.list-wrapper{
+    display: contents;
+    width: max-content;
+}
+
+/* FOOTER-PART */
+
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 61px 100px;
+}
+
+.search-icon{
+    color: white;
+}
+
+.select{
+    border: none;
+    outline-width: 0px;
+}
